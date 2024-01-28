@@ -1,0 +1,17 @@
+.NavBar {
+    background-color: #ffffff;
+}
+
+.NavBarContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.NavBar_points {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 72px;
+
+    align-items: center;
+}

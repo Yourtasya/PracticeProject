@@ -1,0 +1,15 @@
+.HomePageBody {
+    background: url('../../img/homePage/Group\ 6.jpg') no-repeat center center;
+    /* min-height:100%; */
+    background-size: cover;
+    padding: 188px 0 237px;
+}
+
+.HomePageTexts_tittle{
+    max-width: 1126px;
+}
+
+.HomePageTexts_subtittle {
+    color: #FFF;
+    max-width: 837px;
+}

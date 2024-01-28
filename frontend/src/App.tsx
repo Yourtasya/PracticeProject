@@ -1,10 +1,19 @@
-import React from 'react';
+//internal module
+import { BrowserRouter } from "react-router-dom";
+
+//external module
+import NavBar from './components/NavBar';
+import AppRouter from "./routeComponent/AppRouter";
 import './App.css';
+import "./styles/NavBar.css";
+
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <BrowserRouter>
+      <NavBar />
+      <AppRouter />
+    </BrowserRouter>
   );
 }
 

@@ -1,0 +1,15 @@
+    .FirstBlock {
+        background: url('../../img/firstBlock/firstBlock_history.jpg') no-repeat center center;
+        /* min-height:100%; */
+        background-size: cover;
+        padding: 90px 0;
+    }
+
+.HistoryPageText_texts{
+    padding: 54px 0 91px;
+    gap: 24px;
+}
+
+.HomePageTexts{
+    text-align: center;
+}
