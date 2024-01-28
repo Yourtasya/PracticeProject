@@ -10,6 +10,10 @@
     gap: 24px;
 }
 
-.HomePageTexts{
-    text-align: center;
+.currentProjectsTexts{
+    justify-content: center;
+}
+
+.currentProjectsTexts_subtittle{
+    width: 778px;
 }
