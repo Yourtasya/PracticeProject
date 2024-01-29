@@ -1,0 +1,6 @@
+.AwardsPage>.FirstBlock {
+    background: url('../../img/firstBlock/firstBlock_history.jpg') no-repeat center center;
+    /* min-height:100%; */
+    background-size: cover;
+    padding: 90px 0;
+}

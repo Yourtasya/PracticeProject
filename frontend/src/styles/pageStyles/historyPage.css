@@ -5,15 +5,51 @@
         padding: 90px 0;
     }
 
-.HistoryPageText_texts{
-    padding: 54px 0 91px;
+    .HistoryPageText_texts {
+        display: grid;
+        padding: 54px 0 91px;
+        gap: 24px;
+    }
+
+/* currentProjects */
+
+    .currentProjectsTexts {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .currentProjectsTexts_subtittle {
+        width: 778px;
+    }
+
+.currentProjectsObjects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
+padding: 37px;
 }
 
-.currentProjectsTexts{
+.categories{
+    width: 351px;
+height: 464px;
+flex-shrink: 0;
+border-radius: 30px;
+background: #F1F1F1;
+padding: 32px;
+}  
+
+.categoriesTittle{
+    color: #000;
+font-family: Inter;
+font-size: 21px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+padding: 16px 0 6px;
+}
+
+.categoriesImg{
     justify-content: center;
-}
-
-.currentProjectsTexts_subtittle{
-    width: 778px;
 }

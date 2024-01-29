@@ -4,12 +4,15 @@ import "../styles/pageStyles/rentPage.css";
 
 // import { Img } from "react-image";
 
-import "../styles/pageStyles/rentPage.css";
 
 export default function RentPage() {
     return (
         <div className="RentPage">
-    
+            <section className="FirstBlock">
+                <div className="container">
+                    <h2 className="FirstBlock_tittle">Аренда</h2>
+                </div>
+            </section>
         </div>
     );
 }

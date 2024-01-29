@@ -4,12 +4,14 @@ import "../styles/pageStyles/projectsPage.css";
 
 // import { Img } from "react-image";
 
-import "../styles/pageStyles/projectsPage.css";
-
 export default function ProjectsPage() {
     return (
         <div className="ProjectsPage">
-    
+            <section className="FirstBlock">
+                <div className="container">
+                    <h2 className="FirstBlock_tittle">Работы</h2>
+                </div>
+            </section>
         </div>
     );
 }
