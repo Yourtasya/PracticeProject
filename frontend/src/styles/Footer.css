@@ -1,0 +1,10 @@
+.Footer{
+    background: #1F1F1F;
+    padding: 40px;
+}
+
+.footerObjects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}

@@ -12,6 +12,29 @@
     display: inline-flex;
     align-items: flex-start;
     gap: 72px;
-
     align-items: center;
+}
+
+.NavBar_point{
+    color: #000000;
+}
+
+
+/* homePageContacts */
+
+.homePageContacts{
+    padding: 62px 0;
+}
+
+.planeContacts{
+    background: #F1F1F1;
+    width: 437px;
+    height: 293px;
+    padding: 57px 56px;
+}
+
+.planeContacts_number{
+    margin: 28px 0 20px;
+  text-transform:uppercase;
+   
 }

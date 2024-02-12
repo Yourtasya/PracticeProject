@@ -59,33 +59,33 @@ export default function HistoryPage() {
                     <div className="currentProjectsObjects">
                         <div className="currentProjectsObjects_categories categories">
                             <Img src={HistoryImg1} className="categoriesImg"></Img>
-                            <h3 className="categoriesTittle">горно-обогатительный комплекс </h3>
+                            <h4 className="categoriesTittle">горно-обогатительный комплекс </h4>
                             <p className="categoriesSubtittle">Мощностью от 1,1 до 2,0 млн. тонн хлорида калия в год на сырьевой базе Нежинского участка Старобинского месторождения калийных солей (Минская обл.), заказчик ИООО "Славкалий"</p>
                         </div>
                         <div className="currentProjectsObjects_categories categories">
                             <Img src={HistoryImg2} className="categoriesImg"></Img>
-                            <h3 className="categoriesTittle">Петриковский горно-обогатительный комплекс</h3>
+                            <h4 className="categoriesTittle">Петриковский горно-обогатительный комплекс</h4>
                             <p className="categoriesSubtittle">(Гомельская обл.), 
 заказчик ОАО "Беларуськалий"</p>
                         </div>
                         <div className="currentProjectsObjects_categories categories">
                             <Img src={HistoryImg3} className="categoriesImg"></Img>
-                            <h3 className="categoriesTittle">горно-обогатительный комбинат</h3>
+                            <h4 className="categoriesTittle">горно-обогатительный комбинат</h4>
                             <p className="categoriesSubtittle">Горно-обогатительный комбинат мощностью 1,4 млн. тонн в год хлорида калия на базе Горлыкского месторождения калийных солей в Лебапском валаяте Туркменистана</p>
                         </div>
                         <div className="currentProjectsObjects_categories categories">
                             <Img src={HistoryImg4} className="categoriesImg"></Img>
-                            <h3 className="categoriesTittle">Светлогорский ЦБК</h3>
+                            <h4 className="categoriesTittle">Светлогорский ЦБК</h4>
                             <p className="categoriesSubtittle">по инвестиционной программе КНР (Гомельская обл.)</p>
                         </div>
                         <div className="currentProjectsObjects_categories categories">
                             <Img src={HistoryImg5} className="categoriesImg"></Img>
-                            <h3 className="categoriesTittle">Китайско-Белорусского индустриального парка</h3>
+                            <h4 className="categoriesTittle">Китайско-Белорусского индустриального парка</h4>
                             <p className="categoriesSubtittle">(район аэропорта "Минск");</p>
                         </div>
                         <div className="currentProjectsObjects_categories categories">
                             <Img src={HistoryImg6} className="categoriesImg"></Img>
-                            <h3 className="categoriesTittle">завод легковых автомобилей</h3>
+                            <h4 className="categoriesTittle">завод легковых автомобилей</h4>
                             <p className="categoriesSubtittle">в г. Жодино (Минская обл.)</p>
                         </div>
                     </div>

@@ -5,28 +5,197 @@
     padding: 188px 0 237px;
 }
 
-.HomePageTexts_tittle{
+.HomePageTexts_tittle {
     max-width: 1126px;
 }
 
 .HomePageTexts_subtittle {
     color: #FFF;
     max-width: 837px;
-    margin-top: 8px;
+    margin: 8px 0 37px;
+}
+
+.HomePage_button {
+    width: 177px;
+    height: 61px;
+    border-radius: 56px;
+    padding-top: 19px;
+    border: none;
+    background: #EF2B23;
+    color: #fff;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    /* -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-transform: uppercase;
+  text-decoration: none; */
+}
+
+
+/* whyWe */
+
+.whyWe {
+    padding: 64px;
+}
+
+.whyWeContainer {
+    max-width: 928px;
+    margin: 0 auto;
+}
+
+.whyWeTittle {
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.whyWeCarts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.whyWeCart {
+    max-width: 304px;
+    height: 389px;
+    border-radius: 10px;
+    text-align: center;
+    background: #F1F1F1;
+    padding: 40px 10px;
+}
+
+
+.whyWeCartsText_tittle {
+    padding: 12px;
 }
 
 /* historyBody */
 
-.historyBody_tittle{
-    padding: 64px;
-    text-align: center;
+.historyBody {
+    background-color: #1F1F1F;
 }
 
-.historyBody_content{
+.historyBody_tittle {
+    padding: 64px;
+    text-align: center;
+    color: #FFF;
+}
+
+.historyBody_content {
     display: flex;
     padding-bottom: 93px;
 }
 
-.historyBody_contentTexts{
+.historyBody_contentTexts {
     padding: 47px 0 0 22px;
+    color: #FFF;
+}
+
+.historyBody_contentText {
+    margin-bottom: 23px;
+}
+
+
+/* perform */
+
+.performContainer {
+    margin: 0 auto;
+    max-width: 1017px;
+}
+
+.perform {
+    padding: 64px;
+}
+
+.performTittle {
+    text-align: center;
+}
+
+.performCarts {
+    padding-top: 36px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+}
+
+.performCart {
+    max-width: 499px;
+    height: 559px;
+    border-radius: 10px;
+    text-align: center;
+    background: #F1F1F1;
+    padding: 40px;
+}
+
+.performCart_tittle {
+    padding: 30px 0 17px;
+}
+
+/* portfolio */
+
+.portfolio {
+    background: #1F1F1F;
+    padding: 64px;
+}
+
+.portfolioContainer {
+    max-width: 817px;
+    margin: 0 auto;
+}
+
+.portfolioTittle {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 34px;
+}
+
+.portfolioCarts {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 19px;
+}
+
+.portfolioCart {
+    max-width: 817px;
+    height: 323px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    border-radius: 10px;
+    background: #323232;
+    padding: 38px 20px;
+}
+
+.portfolioCartText {
+    color: #fff;
+    padding-top: 33px;
+}
+
+.portfolioCartText_tittle {
+    text-transform: uppercase;
+    margin-bottom: 22px;
+    color: #fff;
+}
+
+.buttonPortfolio{
+    text-align: center;
+    margin-top: 29px;
+}
+
+/*  */
+
+.homePageContacts{
+    padding: 62px 0;
+}
+
+.planeContacts{
+    background: #F1F1F1;
+    width: 437px;
+    height: 293px;
+    padding: 57px 56px;
+}
+
+.planeContacts_city{
+    text-transform: uppercase;
 }
