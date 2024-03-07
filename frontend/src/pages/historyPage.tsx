@@ -65,8 +65,8 @@ export default function HistoryPage() {
                         <div className="currentProjectsObjects_categories categories">
                             <Img src={HistoryImg2} className="categoriesImg"></Img>
                             <h4 className="categoriesTittle">Петриковский горно-обогатительный комплекс</h4>
-                            <p className="categoriesSubtittle">(Гомельская обл.), 
-заказчик ОАО "Беларуськалий"</p>
+                            <p className="categoriesSubtittle">(Гомельская обл.),
+                                заказчик ОАО "Беларуськалий"</p>
                         </div>
                         <div className="currentProjectsObjects_categories categories">
                             <Img src={HistoryImg3} className="categoriesImg"></Img>

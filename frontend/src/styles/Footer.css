@@ -1,10 +1,65 @@
-.Footer{
+.Footer {
     background: #1F1F1F;
     padding: 40px;
 }
 
-.footerObjects{
+.footerLogo {
+    display: flex;
+    align-items: center;
+}
+
+.FooterLine {
+    width: 1px;
+    height: 60px;
+    border: 1px solid #FFFFFF;
+    margin: 0 8px;
+}
+
+.NameProjectInFooter {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffff;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.footerObjects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+}
+
+.footerMenu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.footerMenu_text1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
+.footerMenu_text1_point {
+    color: #ffff;
+}
+
+.footerContacts {
+    color: #ffff;
+}
+
+.footerContacts_tittle {
+    color: #ffff;
+}
+
+.footerAdress_adressTittle,
+.footerPhone_tittle {
+    font-weight: 800;
+    margin-bottom: 11px;
+}
+
+.footerAdress {
+    padding: 21px 0 18px;
 }

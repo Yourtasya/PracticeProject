@@ -8,15 +8,45 @@
     padding: 30px 0;
 }
 
+.NavBarMenu{
+    display: inline-flex; 
+    gap: 168px;
+}
+
 .NavBar_points {
     display: inline-flex;
     align-items: flex-start;
-    gap: 72px;
+    gap: 62px;
     align-items: center;
 }
 
 .NavBar_point{
     color: #000000;
+}
+
+/* /////// */
+
+.NavBarLogo {
+    display: flex;
+    align-items: center;
+    max-width: 212px;
+    padding-right: 125px;
+}
+
+.NavLine {
+    width: 1px;
+    height: 37px;
+    border: 1px solid #1F1F1F;
+    margin: 0 8px;
+}
+
+.NameProjectLogo {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #1F1F1F;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
 }
 
 

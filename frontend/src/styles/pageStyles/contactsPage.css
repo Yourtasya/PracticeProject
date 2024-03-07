@@ -4,3 +4,64 @@
     background-size: cover;
     padding: 90px 0;
 }
+
+.containerContactPage {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.contactPage{
+    padding: 60px 0;
+}
+
+.contactPageSection1_adress, .contactPageSection1_phone{
+    display: flex;
+}
+
+.Section1_phoneSubtittle, .Section1_adressSubtittle{
+    font-size: 24px;
+}
+
+.Section1_adressTittle, .Section1_phoneTittle{
+    font-size: 32px;
+}
+
+.Section1_adressSubtittle{
+    margin-left: 21px;
+}
+
+.contactPageSection1_phone{
+    padding: 22px 0 30px;
+}
+
+.Section1_phoneSubtittle{
+    margin-left: 26px;
+}
+
+.contactPageSection2{
+    display: flex;
+}
+
+.Section2_nameTittleName1{
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.Section2_name1{
+    padding-bottom: 42px;
+}
+
+.SectionLine{
+    width: 1px;
+    height: 222px;
+    border: 1px solid #F3645E;
+    margin: 0 90px;
+}
+
+.Section2_name, .Section2_information{
+    padding-top: 21px;
+}
+
+.Section2_information1{
+    padding-bottom: 42px;
+}

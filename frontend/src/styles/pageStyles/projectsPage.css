@@ -4,3 +4,30 @@
     background-size: cover;
     padding: 90px 0;
 }
+
+.ProjectsPageContent {
+    padding-bottom: 60px;
+}
+
+.projectsImg {
+    max-width: 550px;
+    border-radius: 10px;
+    height: 413px;
+}
+
+.ProjectsPageContent_section {
+    display: flex;
+    padding-top: 60px;
+    
+}
+
+.ProjectsPageContentText{
+    margin-top: 20px;
+    margin-left: 41px;
+
+}
+
+.ProjectsPageContentText_text {
+    padding-top: 25px;
+}
+

@@ -79,6 +79,15 @@ h4{
   line-height: normal;
 }
 
+h5 {
+  color: #1F0402;
+  font-size: 32px;
+  font-weight: 800;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+
 p {
   font-size: 18px;
   font-style: normal;

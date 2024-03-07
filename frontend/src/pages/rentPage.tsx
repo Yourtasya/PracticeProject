@@ -13,6 +13,12 @@ export default function RentPage() {
                     <h2 className="FirstBlock_tittle">Аренда</h2>
                 </div>
             </section>
+
+            <div className="rentPage">
+                <div className="container">
+                    
+                </div>
+            </div>
         </div>
     );
 }
